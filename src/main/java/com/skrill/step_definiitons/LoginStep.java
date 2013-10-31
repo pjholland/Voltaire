@@ -9,8 +9,8 @@ import cucumber.api.java.en.When;
 
 public class LoginStep extends BasePage {
 
-    protected String ref_mail = "martinkl.ref.rev001@sun-fish.com";
-    protected String ref_pass = "martinkl.ref.rev001";
+    protected String standard_user_mail_INT = "auto_customer_bul_pqeulokwtv@sun-fish.com";
+    protected String standard_user_pass_INT = "auto_customer_bul_pqeulokwtv@sun-fish.com123";
     private LoginPage loginpage;
 
     @Given("^I am on the skrill login page$")
@@ -23,10 +23,8 @@ public class LoginStep extends BasePage {
 
     @And("^I enter my credentials$")
     public void I_enter_my_credentials() throws Throwable {
-        // loginpage.type_username("auto_customer_pmhmajklqu@sun-fish.com");
-        // loginpage.type_password("auto_customer_pmhmajklqu@sun-fish.com123");
-        loginpage.type_username("auto_customer_gbr_torbdklsaa@sun-fish.com");
-        loginpage.type_password("auto_customer_gbr_torbdklsaa@sun-fish.com123");
+        loginpage.type_username(standard_user_mail_INT);
+        loginpage.type_password(standard_user_pass_INT);
         Thread.sleep(2000);
 
     }

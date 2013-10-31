@@ -150,8 +150,10 @@ public class BasePage {
                 throw new Exception();
             }
         }
-        WebElement query = getDriver().findElement(byElement);    //grab our element based on the locator
-        return query;    //return our query
+        return  getDriver().findElement(byElement);    //grab our element based on the locator
+
+//        WebElement query = getDriver().findElement(byElement);    //grab our element based on the locator
+//        return query;    //return our query
 
     }
 
