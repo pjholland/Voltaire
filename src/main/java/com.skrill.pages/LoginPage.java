@@ -4,11 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 
-
-
-
 public class LoginPage extends BasePage {
 
+
+///////////////////////////Page Elements/////////////////////////////////////////////////////
 
     String ref_mail = "martinkl.ref.rev001@sun-fish.com" ;
     String ref_pass = "martinkl.ref.rev001" ;
@@ -18,6 +17,8 @@ public class LoginPage extends BasePage {
     By submit_button = By.xpath("/html/body/div[3]/div[2]/div[3]/div/form/div[3]/input");
     By logout_button = By.linkText("Logout");
 
+
+//////////////////////Methods/////////////////////////////////////////////////////////////
 
     public void open() {
         getDriver().get("https://my-integr.dev.moneybookers.net/login");

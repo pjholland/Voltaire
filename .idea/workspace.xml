@@ -2,24 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/ikeaHomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/ikeaHomePageStep.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/ikea_features/search_for_ikea_product.feature" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/VipCustomersStep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/testGetSingleton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/skrill/MainHooks.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/skrill/defects/first_test.java" afterPath="$PROJECT_DIR$/src/test/java/com/skrill/defects/first_test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jvm-cucmber-skrill.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1383234091559" ignored="false" />
-    <file path="/BasePage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1381415691195" ignored="false" />
-    <file path="/LoginPage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1381506591342" ignored="false" />
-    <file path="/LoginStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1381507058968" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384361268826" ignored="false" />
+    <file path="/BasePage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1383756520612" ignored="false" />
+    <file path="/LoginPage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384360935897" ignored="false" />
+    <file path="/LoginStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384268172411" ignored="false" />
     <file path="/skrill_login.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1381507973919" ignored="false" />
+    <file path="/fragment.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1383234405097" ignored="false" />
+    <file path="/accoount_overview_vip_customers.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384272340277" ignored="false" />
+    <file path="/AccountOverview.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384266687226" ignored="false" />
+    <file path="/VipCustomersStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384272196762" ignored="false" />
+    <file path="/AddCardsAndBankAccounts.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384360841438" ignored="false" />
+    <file path="/Settings.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384361009538" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,47 +91,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AddCardsAndBankAccountsStep.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="71" selection-start="4657" selection-end="4657" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegressionTestSuite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="69" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skrill_login.feature" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="79" selection-end="79" vertical-scroll-proportion="0.056497175">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RunCukesTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="24" column="16" selection-start="653" selection-end="653" vertical-scroll-proportion="0.3313433">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,21 +131,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skrill/defects/first_test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/VipCustomersStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1920" />
-    <option name="y" value="403" />
-    <option name="width" value="1922" />
-    <option name="height" value="677" />
+    <option name="y" value="415" />
+    <option name="width" value="1927" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,6 +181,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,249 +201,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill_login_featues" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="defects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.skrill.pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definiitons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="258" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="260" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="260" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="270" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1058" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1059" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="265" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="262" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="fileColors" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.RunCukesTest">
@@ -507,19 +298,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <option name="GLUE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -549,17 +338,19 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -630,11 +421,15 @@
       <created>1381408580100</created>
       <updated>1381408580100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" add remaining files that were missed at initial commit">
+      <created>1383234177008</created>
+      <updated>1383234177008</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="403" width="1922" height="677" extended-state="0" />
+    <frame x="-1920" y="415" width="1927" height="662" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -644,17 +439,17 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3302583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16151386" sideWeight="0.6714542" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26953748" sideWeight="0.6697417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5867159" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303411" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -701,7 +496,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add remaining files that were missed at initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reformatting current tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -718,6 +513,7 @@
     <MESSAGE value="Add project files" />
     <MESSAGE value=" add remaining files" />
     <MESSAGE value=" add remaining files that were missed at initial commit" />
+    <MESSAGE value="Reformatting current tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -727,35 +523,95 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/testGetSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="61" column="31" selection-start="1921" selection-end="1921" vertical-scroll-proportion="0.5503876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/SettingsStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="0.20348836">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="52" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+        <state line="8" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.23255815">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="79" selection-start="466" selection-end="466" vertical-scroll-proportion="0.37790698">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="112" selection-start="247" selection-end="247" vertical-scroll-proportion="0.2616279">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="90" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/defects/first_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+        <state line="6" column="24" selection-start="151" selection-end="151" vertical-scroll-proportion="0.1744186">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/MainHooks.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="43" selection-start="203" selection-end="203" vertical-scroll-proportion="0.14534883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_cards_and_bank_accounts_features/cards_and_bank_accounts.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -766,86 +622,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/MainHooks.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="195" selection-end="195" vertical-scroll-proportion="0.17630059">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="163" selection-end="163" vertical-scroll-proportion="0.08959538">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.216763">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/testGetSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0433526">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="88" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/defects/first_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="45" selection-start="151" selection-end="151" vertical-scroll-proportion="0.2601156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RegressionTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="69" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="71" selection-start="4657" selection-end="4657" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="79" selection-end="79" vertical-scroll-proportion="0.056497175">
-          <folding />
+        <state line="24" column="16" selection-start="653" selection-end="653" vertical-scroll-proportion="0.3313433">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,8 +6,12 @@ import org.openqa.selenium.WebElement;
 
 public class Settings extends BasePage {
 
+//////////////////////////Page Elements//////////////////////////////////////////////////
+
     By settings_tab = By.linkText("Settings");
     By user_settings_display_box = By.id("user_settings_container");
+
+////////////////////////Methods/////////////////////////////////////////////////////////
 
 
     public void click_settings_tab ()throws Throwable{

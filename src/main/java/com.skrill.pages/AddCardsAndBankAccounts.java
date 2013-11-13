@@ -6,9 +6,13 @@ import org.openqa.selenium.WebElement;
 
 public class AddCardsAndBankAccounts extends BasePage {
 
+////////////////////Page Elements////////////////////////////////////////////////
 
     By add_bank_account_button = By.linkText("Add Bank Account");
     By cards_and_bank_tab = By.linkText("Cards and Bank Accounts");
+
+
+//////////////////Methods//////////////////////////////////////////////////////
 
 
     public void click_add_bank_account_button()throws Throwable{

@@ -17,13 +17,12 @@ public class AddCardsAndBankAccountsStep extends BasePage {
     public void I_click_on_tab(String page_type) throws Throwable {
         if (page_type == "Cards and Bank Accounts")
             addcardsandbankaccounts = new AddCardsAndBankAccounts();
-        addcardsandbankaccounts.click_add_bank_account_button();
-        Thread.sleep(2000);
+            addcardsandbankaccounts.click_add_bank_account_button();
+            Thread.sleep(2000);
         if (page_type == "Settings")
             settings_page = new Settings();
-        settings_page.click_settings_tab();
-        Thread.sleep(2000);
-
+            settings_page.click_settings_tab();
+            Thread.sleep(2000);
     }
 
     @Then("^I should see the Cards and Bank Accounts page$")

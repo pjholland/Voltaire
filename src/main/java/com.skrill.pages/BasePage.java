@@ -152,9 +152,6 @@ public class BasePage {
         }
         return  getDriver().findElement(byElement);    //grab our element based on the locator
 
-//        WebElement query = getDriver().findElement(byElement);    //grab our element based on the locator
-//        return query;    //return our query
-
     }
 
 

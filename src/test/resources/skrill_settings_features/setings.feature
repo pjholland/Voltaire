@@ -1,4 +1,3 @@
-
 Feature: as a user i want to check my settings
 
 	Scenario: User goes to the settings page

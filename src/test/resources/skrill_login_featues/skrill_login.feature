@@ -1,6 +1,6 @@
 @skrill
 Feature: as a user i want to log in to the Skrill website
-	@in_progress
+
 	Scenario: I log onto skrill
 		Given I am on the skrill login page
 		When  I enter my credentials

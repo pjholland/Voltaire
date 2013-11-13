@@ -9,15 +9,19 @@ import cucumber.api.java.en.When;
 
 public class LoginStep extends BasePage {
 
-    protected String standard_user_mail_INT = "auto_customer_bul_pqeulokwtv@sun-fish.com";
-    protected String standard_user_pass_INT = "auto_customer_bul_pqeulokwtv@sun-fish.com123";
+    protected String standard_user_mail_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com";
+    protected String standard_user_pass_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com123";
+
+    protected String VIP_user_mail_INT         = "devnull.bguspwdkhy@sun-fish.com";
+    protected String VIP_user_pass_INT         = "devnull.bguspwdkhy@sun-fish.com123";
+
     private LoginPage loginpage;
 
     @Given("^I am on the skrill login page$")
     public void I_am_on_the_skrill_login_page() throws Throwable {
         loginpage = new LoginPage();
         loginpage.open();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
     }
 
@@ -50,6 +54,17 @@ public class LoginStep extends BasePage {
         loginpage.log_in_as_referrer();
         Thread.sleep(1000);
 
+    }
+
+    @When("^I enter my details as a \"([^\"]*)\" customer$")
+    public void I_enter_my_details_as_a_customer(String customer_type) throws Throwable {
+        if (customer_type == "VIP")
+            Thread.sleep(1000);
+            loginpage.type_username(VIP_user_mail_INT);
+            loginpage.type_password(VIP_user_pass_INT);
+            Thread.sleep(1000);
+            loginpage.submit_details();
+        Thread.sleep(10000);
     }
 
 
