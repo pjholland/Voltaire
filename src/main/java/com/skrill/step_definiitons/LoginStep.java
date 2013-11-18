@@ -12,8 +12,8 @@ public class LoginStep extends BasePage {
     protected String standard_user_mail_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com";
     protected String standard_user_pass_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com123";
 
-    protected String VIP_user_mail_INT         = "devnull.bguspwdkhy@sun-fish.com";
-    protected String VIP_user_pass_INT         = "devnull.bguspwdkhy@sun-fish.com123";
+    protected String VIP_user_mail_INT         = "devnull.cbjreahimf@sun-fish.com";
+    protected String VIP_user_pass_INT         = "devnull.cbjreahimf@sun-fish.com123";
 
     private LoginPage loginpage;
 

@@ -21,8 +21,8 @@ public class LoginPage extends BasePage {
 //////////////////////Methods/////////////////////////////////////////////////////////////
 
     public void open() {
-        getDriver().get("https://my-integr.dev.moneybookers.net/login");
-       // getDriver().get("https://my-stage.dev.moneybookers.net/login");
+        //getDriver().get("https://my-integr.dev.moneybookers.net/login");
+        getDriver().get("https://my-stage.dev.moneybookers.net/login");
     }
 
     public void type_username (String username)throws Throwable{

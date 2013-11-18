@@ -16,4 +16,9 @@ public class AccountOverviewStep extends BasePage {
         Thread.sleep(1000);
     }
 
+    @Then("^the vip members box should be displayed$")
+    public void the_vip_members_box_should_be_displayed() throws Exception {
+        account_overview.checkElementDisplayed(Locators.id, account_overview.VIP_MEMBERSBOX);
+    }
+
 }
