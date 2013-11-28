@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 
-public class LoginPage extends BasePage {
+public class Login extends BasePage {
 
 
 ///////////////////////////Page Elements/////////////////////////////////////////////////////

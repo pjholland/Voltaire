@@ -1,13 +1,12 @@
 package com.skrill.step_definiitons;
 
-import com.skrill.pages.BasePage;
-import com.skrill.pages.LoginPage;
+import com.skrill.pages.Login;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 
-public class LoginStep extends BasePage {
+public class LoginStep {
 
     protected String standard_user_mail_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com";
     protected String standard_user_pass_INT    = "auto_customer_bul_pqeulokwtv@sun-fish.com123";
@@ -15,11 +14,11 @@ public class LoginStep extends BasePage {
     protected String VIP_user_mail_INT         = "devnull.cbjreahimf@sun-fish.com";
     protected String VIP_user_pass_INT         = "devnull.cbjreahimf@sun-fish.com123";
 
-    private LoginPage loginpage;
+    private Login loginpage;
 
     @Given("^I am on the skrill login page$")
     public void I_am_on_the_skrill_login_page() throws Throwable {
-        loginpage = new LoginPage();
+        loginpage = new Login();
         loginpage.open();
         Thread.sleep(2000);
 
