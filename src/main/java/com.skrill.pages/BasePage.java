@@ -77,7 +77,7 @@ public class BasePage {
         click(getWebElement(locator, element));
     }
 
-    public void selectFromDropdownlist(String list, String list_item) {
+    public void selectFromDropdownlist(Locators locator, String list, String list_item) {
       new Select(getDriver().findElement(By.id(list))).selectByVisibleText(list_item);
 
     }

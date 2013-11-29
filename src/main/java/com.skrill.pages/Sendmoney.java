@@ -26,9 +26,9 @@ public class Sendmoney extends BasePage {
        type(Locators.id,  amountToSend, "10.000");
        click(Locators.id, reviewButton);
        Thread.sleep(2000);
-       selectFromDropdownlist(birth_month, "January");
-       selectFromDropdownlist(birth_day,  "8");
-       selectFromDropdownlist(birth_year, "1961");
+       selectFromDropdownlist(Locators.id,birth_month, "January");
+       selectFromDropdownlist(Locators.id,birth_day,  "8");
+       selectFromDropdownlist(Locators.id,birth_year, "1961");
        Thread.sleep(2000);
     }
 
