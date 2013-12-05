@@ -16,13 +16,13 @@ public class AddCardsAndBankAccountsStep extends BasePage {
     @When("^I click on \"([^\"]*)\" tab$")
     public void I_click_on_tab(String page_type) throws Throwable {
         if (page_type == "Cards and Bank Accounts")
+            waitForPageFullyLoaded(3);
             addcardsandbankaccounts = new AddCardsAndBankAccounts();
             addcardsandbankaccounts.click_add_bank_account_button();
-            Thread.sleep(2000);
         if (page_type == "Settings")
             settings_page = new Settings();
             settings_page.click_settings_tab();
-            Thread.sleep(2000);
+            waitForPageFullyLoaded(3);
     }
 
     @Then("^I should see the Cards and Bank Accounts page$")

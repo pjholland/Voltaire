@@ -27,7 +27,7 @@ public class BasePage {
         Thread.sleep(seconds * 1000);
     }
 
-    public void wait(double seconds) throws InterruptedException {
+    public void waitFor(double seconds) throws InterruptedException {
         Thread.sleep(Double.doubleToLongBits(seconds * 1000));
     }
 
@@ -55,6 +55,22 @@ public class BasePage {
         }
     }
 
+    public boolean waitForPageFullyLoaded(int timeoutMs) throws Exception{
+        int previous;
+        int current = 0;
+        int timeSliceMs = 1000;
+        do {
+            previous = current;
+            Thread.sleep(timeSliceMs);
+            timeoutMs -= timeSliceMs;
+            current = getDriver().findElements(By.xpath("//*")).size() ;
+        } while(current > previous && timeoutMs > 0);
+        if(timeoutMs > 0) {
+            return true;
+        }
+        return false;
+    }
+
     //////////////////////////////////////
     //checking element functionality
     //////////////////////////////////////
@@ -75,11 +91,6 @@ public class BasePage {
     //our generic selenium click functionality implemented
     public void click(Locators locator, String element) throws Exception {
         click(getWebElement(locator, element));
-    }
-
-    public void selectFromDropdownlist(Locators locator, String list, String list_item) {
-      new Select(getDriver().findElement(By.id(list))).selectByVisibleText(list_item);
-
     }
 
     public void click(WebElement element) {
@@ -107,10 +118,16 @@ public class BasePage {
         selAction.sendKeys(element, text).perform();
     }
 
+    public void selectFromDropdownlist(Locators locators, String list, String list_item) {
+        new Select(getDriver().findElement(By.id(list))).selectByVisibleText(list_item);
+
+    }
+
     /////////////////////////////////////
     //Other Generic Tests
     ////////////////////////////////////
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     public void checkTextPresentOnPage(String text) {
         getDriver().getPageSource().compareTo(text);
     }

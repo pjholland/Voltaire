@@ -2,28 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/users.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Sendmoney.java" afterPath="$PROJECT_DIR$/src/main/java/com.skrill.pages/Sendmoney.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java" afterPath="$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" afterPath="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_cards_and_bank_accounts_features/cards_and_bank_accounts.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_cards_and_bank_accounts_features/cards_and_bank_accounts.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jvm-cucmber-skrill.iml" afterPath="$PROJECT_DIR$/jvm-cucmber-skrill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" afterPath="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jvm-cucmber-skrill.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1385712984629" ignored="false" />
-    <file path="/BasePage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1385713095822" ignored="false" />
-    <file path="/LoginPage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384360935897" ignored="false" />
-    <file path="/LoginStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384268172411" ignored="false" />
-    <file path="/skrill_login.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1381507973919" ignored="false" />
-    <file path="/fragment.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1383234405097" ignored="false" />
-    <file path="/accoount_overview_vip_customers.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384272340277" ignored="false" />
-    <file path="/AccountOverview.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384449376817" ignored="false" />
-    <file path="/VipCustomersStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384533633841" ignored="false" />
-    <file path="/AddCardsAndBankAccounts.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384360841438" ignored="false" />
-    <file path="/Settings.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384361009538" ignored="false" />
-    <file path="/AccountOverviewStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384792983272" ignored="false" />
-    <file path="/Sendmoney.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1385713177230" ignored="false" />
-    <file path="/customer_sends_money.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1384881863852" ignored="false" />
-    <file path="/Sendmoneystep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1385398772398" ignored="false" />
-    <file path="/Site.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1385139323954" ignored="false" />
+    <file path="/Dummy.txt" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386258587606" ignored="false" />
+    <file path="/Login.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386178036134" ignored="false" />
+    <file path="/LoginStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386264738782" ignored="false" />
+    <file path="/BasePage.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386261967291" ignored="false" />
+    <file path="/AddCardsAndBankAccountsStep.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386259449191" ignored="false" />
+    <file path="/WebDriverSingleton.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386259839500" ignored="false" />
+    <file path="/users.java" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386260628694" ignored="false" />
+    <file path="/customer_sends_money.feature" changelist="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" time="1386261441247" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +90,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BasePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java">
+      <file leaf-file-name="customer_sends_money.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="57" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.0">
+            <state line="6" column="8" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sendmoney.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Sendmoney.java">
+      <file leaf-file-name="LoginStep.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.59302324">
+            <state line="38" column="66" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.2241993">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverSingleton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="61" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +122,7 @@
       <file leaf-file-name="Login.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,30 +146,47 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/VipCustomersStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/skrill/Site.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/Sendmoneystep.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/Sendmoney.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_cards_and_bank_accounts_features/cards_and_bank_accounts.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/users.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1920" />
-    <option name="y" value="416" />
-    <option name="width" value="1927" />
-    <option name="height" value="662" />
+    <option name="y" value="403" />
+    <option name="width" value="1916" />
+    <option name="height" value="658" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -347,6 +381,14 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skrill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -415,36 +457,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jvm-cucmber-skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Voltaire" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skrill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definiitons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,6 +549,24 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -558,6 +588,19 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -585,19 +628,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -634,6 +664,22 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RunCukesTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.first_test" />
@@ -650,6 +696,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9d184afe-3247-4b02-9eb9-9a6ffe40dcc6" name="Default" comment="" />
@@ -684,11 +747,15 @@
       <created>1385660582848</created>
       <updated>1385660582848</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactored select from dropdown list to take various inputs">
+      <created>1385713515948</created>
+      <updated>1385713515948</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="416" width="1927" height="662" extended-state="0" />
+    <frame x="-1920" y="403" width="1916" height="658" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -699,19 +766,28 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3302583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958813" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26953748" sideWeight="0.5830258" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41697416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30855614" sideWeight="0.57434946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42565057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32841328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3302583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -755,7 +831,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added generic method to select from a drop down list" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored select from dropdown list to take various inputs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -775,6 +851,7 @@
     <MESSAGE value="Reformatting current tests" />
     <MESSAGE value="minor changes after reformatting" />
     <MESSAGE value="added generic method to select from a drop down list" />
+    <MESSAGE value="refactored select from dropdown list to take various inputs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -784,104 +861,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="518" selection-end="518" vertical-scroll-proportion="0.37937742">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/AddCardsAndBankAccounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/AccountOverview.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="51" selection-start="298" selection-end="298" vertical-scroll-proportion="0.31976745">
+        <state line="5" column="13" selection-start="73" selection-end="73" vertical-scroll-proportion="0.14648438">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.31.0/selenium-api-2.31.0-sources.jar!/org/openqa/selenium/WebElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.07653061">
+        <state line="172" column="10" selection-start="7539" selection-end="7539" vertical-scroll-proportion="0.33203125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.07653061">
+        <state line="23" column="68" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="296" selection-end="296" vertical-scroll-proportion="0.29069766">
+        <state line="12" column="51" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AccountOverviewStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="441" selection-end="472" vertical-scroll-proportion="0.38265306">
+        <state line="7" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_settings_features/setings.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/AddCardsAndBankAccountsStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_login_featues/skrill_login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="199" selection-end="243" vertical-scroll-proportion="0.45918366" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="34" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_cards_and_bank_accounts_features/cards_and_bank_accounts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/Sendmoneystep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="228" selection-end="228" vertical-scroll-proportion="0.46875">
+        <state line="25" column="35" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/SettingsStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="7" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.35888502">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/skrill/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="503" selection-end="503" vertical-scroll-proportion="0.4878049">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="57" selection-start="2718" selection-end="2718" vertical-scroll-proportion="0.0">
+        <state line="179" column="3" selection-start="5874" selection-end="5874" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/Sendmoneystep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.3728223">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Sendmoney.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.59302324">
+        <state line="2" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="-0.5226481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.skrill.pages/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/skrill/vipcustomers.features/accoount_overview_vip_customers.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/skrill_send_money_features/customer_sends_money.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="61" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/skrill/step_definiitons/LoginStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="66" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.2241993">
           <folding />
         </state>
       </provider>
