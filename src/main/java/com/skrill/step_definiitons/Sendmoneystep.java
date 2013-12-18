@@ -11,7 +11,5 @@ public class Sendmoneystep {
     public void the_customer_sends_money() throws Throwable {
          sendmoney = new Sendmoney();
          sendmoney.sendSomeMoney();
-
-
     }
 }

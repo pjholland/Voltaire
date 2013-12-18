@@ -25,6 +25,7 @@ public class Login extends BasePage {
     public void type_username (String username)throws Throwable{
         WebElement userName = getDriver().findElement(user_name);
         userName.sendKeys(username);
+
     }
 
     public void type_password (String secret_word)throws Throwable{

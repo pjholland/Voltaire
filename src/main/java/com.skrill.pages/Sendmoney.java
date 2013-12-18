@@ -22,7 +22,7 @@ public class Sendmoney extends BasePage {
     public void sendSomeMoney() throws Exception {
        click(Locators.id, Send_Money_button);
        type(Locators.id,  recipientEmail, "devnull.sfssf@sunfish.com" );
-       type(Locators.id,  amountToSend, "10.000");
+       type(Locators.id,  amountToSend, "10.00");
        click(Locators.id, reviewButton);
        waitForElementDisplayed(Locators.id, "second_step", 5);
        selectFromDropdownlist(Locators.id,birth_month, "January");

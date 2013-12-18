@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
+
 public class BasePage {
 
     public enum Locators {
@@ -30,6 +31,7 @@ public class BasePage {
     public void waitFor(double seconds) throws InterruptedException {
         Thread.sleep(Double.doubleToLongBits(seconds * 1000));
     }
+
 
     //a method for waiting until an element is displayed
     public void waitForElementDisplayed(Locators locator, String element) throws Exception {
@@ -118,6 +120,8 @@ public class BasePage {
         selAction.sendKeys(element, text).perform();
     }
 
+
+    // method to select from a drop down list
     public void selectFromDropdownlist(Locators locators, String list, String list_item) {
         new Select(getDriver().findElement(By.id(list))).selectByVisibleText(list_item);
 

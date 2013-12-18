@@ -13,7 +13,8 @@ public class WebDriverSingleton {
     public static WebDriver getInstance() {
         if (driver == null) {
             driver = new FirefoxDriver();
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
             driver.manage().window().maximize();
         }
 

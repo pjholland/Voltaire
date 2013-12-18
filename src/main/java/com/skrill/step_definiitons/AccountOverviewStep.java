@@ -21,4 +21,9 @@ public class AccountOverviewStep extends BasePage {
         account_overview.checkElementDisplayed(Locators.id, account_overview.VIP_MEMBERSBOX);
     }
 
+    @Then("^all the elements of the page should be visible$")
+    public void all_the_elements_of_the_page_should_be_visible() throws Throwable {
+
+    }
+
 }
