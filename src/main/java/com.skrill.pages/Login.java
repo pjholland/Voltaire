@@ -19,7 +19,7 @@ public class Login extends BasePage {
 
     public void open() throws  Throwable{
         //getDriver().get("https://my-integr.dev.moneybookers.net/login");
-        getDriver().get("https://my-stage.dev.moneybookers.net/login");
+        getDriver().get("https://uk.yahoo.com/");
         Thread.sleep(2000);
     }
 

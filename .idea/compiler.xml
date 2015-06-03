@@ -25,6 +25,8 @@
         <module name="jvm-cucmber-skrill" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jvm-cucmber-skrill" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-

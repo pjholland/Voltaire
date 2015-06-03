@@ -1,14 +1,19 @@
 package com.skrill.pages;
 
-import com.skrill.WebDriverSingleton;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import com.skrill.WebDriverSingleton;
 
 
 public class BasePage {
+
+
+
+
 
     public enum Locators {
         xpath, id, name, classname, paritallinktext, linktext, tagname
@@ -18,6 +23,8 @@ public class BasePage {
         return WebDriverSingleton.getInstance();
 
     }
+
+
 
     /////////////////////////////////////////
     //waiting functionality
